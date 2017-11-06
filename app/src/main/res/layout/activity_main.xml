@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:context="com.example.android.musicplayerapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/library_button"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/geometric_one"
+            android:scaleType="fitStart"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/library_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/library"
+            style="@style/TextHomepage"
+            android:layout_alignBottom="@+id/library_button"
+            android:layout_alignRight="@+id/library_button"
+            android:layout_alignEnd="@+id/library_button"
+            android:layout_marginRight="84dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="58dp" />
+
+        <ImageButton
+            android:id="@+id/music_store_button"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/library_button"
+            android:scaleType="fitEnd"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@drawable/geometric_two"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/music_store_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/store"
+            style="@style/TextHomepage"
+            android:layout_alignBottom="@+id/music_store_button"
+            android:layout_alignLeft="@+id/music_store_button"
+            android:layout_alignStart="@+id/music_store_button"
+            android:layout_marginLeft="84dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginBottom="58dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+

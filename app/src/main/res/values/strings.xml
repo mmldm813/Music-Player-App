@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Music Player App</string>
+    <string name="library">Library</string>
+    <string name="store">Store</string>
+    <string name="description_of_payment_api_and_how_to_use_it">To implement the Payment Activity, you first need to modify your Manifest to enable the Android Pay API. You then need to reference a Constants Class to use constant values in the app. Use a isReadyToPay method to see if the use has the android pay app installed. You then need to establish what kind of Payment Token you wish to receive and make the parameters. Use a MaskedWallet Request to get the billing information of the User. Estimate tax. Add a purchase button with WalletFragment class. Request and Retrieve the Full Wallet. Continue through the typical purchase flow to the receipt.</string>
+    <string name="purpose_of_now_playing_activity">the user should be able to see the song\'s information with cover art and be able to control the song using the buttons and seek bar below.</string>
+</resources>
